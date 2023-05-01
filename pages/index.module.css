@@ -35,3 +35,8 @@
   color: #4a3f69;
   font-family: Poppins;
 }
+@media screen and (max-width: 960px) {
+  .messagesnav {
+    display: none;
+  }
+}
