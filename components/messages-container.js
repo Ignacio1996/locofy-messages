@@ -46,7 +46,11 @@ const MessagesContainer = () => {
               alt=""
               src="/mask-group@2x.png"
             />
-            <div className={styles.typeAMessage}>Type a message</div>
+            <input
+              className={styles.typeAMessage}
+              type="text"
+              placeholder="Type a message"
+            />
           </div>
           <img
             className={styles.composeNewBtn1}
