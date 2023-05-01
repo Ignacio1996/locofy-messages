@@ -1,0 +1,118 @@
+.cameron {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+}
+.conversationheader {
+  align-self: stretch;
+  position: relative;
+  height: 30px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 20px;
+}
+.whatDoYou {
+  position: relative;
+  line-height: 150%;
+  font-weight: 300;
+}
+.conversationBubble,
+.conversationBubbleWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.conversationBubble {
+  border-radius: 24px 24px 24px 0;
+  background-color: #9747ff;
+  flex-direction: row;
+  padding: 12px 16px;
+}
+.conversationBubbleWrapper {
+  align-self: stretch;
+  flex-direction: column;
+}
+.iThinkThe {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  font-weight: 300;
+}
+.conversationBubble1 {
+  border-radius: 24px 24px 0 24px;
+  background-color: #ebeaea;
+  width: 258px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.conversationBubbleContainer,
+.conversationcontainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: #000;
+}
+.conversationcontainer {
+  flex: 1;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 16.5px;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.typeAMessage {
+  position: absolute;
+  top: 14.5px;
+  left: 50px;
+  line-height: 150%;
+  font-weight: 300;
+  opacity: 0.4;
+}
+.composeNewBtn,
+.composeNewBtn1 {
+  position: relative;
+  border-radius: 100px;
+  height: 53px;
+}
+.composeNewBtn {
+  flex: 1;
+  background-color: #ebeaea;
+}
+.composeNewBtn1 {
+  width: 53px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.messageinput,
+.messagescontainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px;
+  color: #000;
+}
+.messagescontainer {
+  flex: 1;
+  flex-direction: column;
+  gap: 30px;
+  text-align: left;
+  font-size: 16px;
+  color: #4a3f69;
+  font-family: Poppins;
+}
