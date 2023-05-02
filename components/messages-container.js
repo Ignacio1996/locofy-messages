@@ -21,7 +21,7 @@ const MessagesContainer = () => {
           <img
             className={styles.vectorIcon}
             alt=""
-            src="/vector.svg"
+            src="/vector1.svg"
             onClick={openDrawerMessages}
           />
         </div>
@@ -46,11 +46,7 @@ const MessagesContainer = () => {
               alt=""
               src="/mask-group@2x.png"
             />
-            <input
-              className={styles.typeAMessage}
-              type="text"
-              placeholder="Type a message"
-            />
+            <div className={styles.typeAMessage}>Type a message</div>
           </div>
           <img
             className={styles.composeNewBtn1}

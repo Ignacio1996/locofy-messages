@@ -33,7 +33,7 @@ const DrawerMessages = ({ onClose }) => {
 
   return (
     <div className={styles.drawermessages} data-animate-on-scroll>
-      <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
+      <img className={styles.vectorIcon} alt="" src="/vector.svg" />
       <div className={styles.messages}>
         <b className={styles.messages1}>Messages</b>
       </div>

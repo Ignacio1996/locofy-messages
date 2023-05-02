@@ -17,6 +17,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 10px;
+  text-align: center;
+  font-size: 20px;
 }
 .whatDoYou {
   position: relative;
@@ -69,47 +71,36 @@
   flex: 1;
   align-items: center;
   gap: 16px;
-  text-align: left;
-  font-size: 16px;
   color: #fff;
 }
 .maskGroupIcon {
-  position: relative;
+  position: absolute;
+  top: 16.5px;
+  left: 18px;
   width: 20px;
   height: 20px;
-  flex-shrink: 0;
   object-fit: cover;
 }
 .typeAMessage {
-  border: 0;
-  font-weight: 300;
-  font-family: Poppins;
-  font-size: 16px;
-  background-color: transparent;
-  flex: 1;
-  position: relative;
+  position: absolute;
+  top: 14.5px;
+  left: 50px;
   line-height: 150%;
-  color: #000;
-  text-align: left;
+  font-weight: 300;
   opacity: 0.4;
-  outline: 0;
 }
-.composeNewBtn {
-  flex: 1;
-  border-radius: 100px;
-  background-color: #ebeaea;
-  display: flex;
-  flex-direction: row;
-  padding: 15px 18px;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 12px;
-}
+.composeNewBtn,
 .composeNewBtn1 {
   position: relative;
   border-radius: 100px;
-  width: 53px;
   height: 53px;
+}
+.composeNewBtn {
+  flex: 1;
+  background-color: #ebeaea;
+}
+.composeNewBtn1 {
+  width: 53px;
   flex-shrink: 0;
   overflow: hidden;
   object-fit: cover;
@@ -122,13 +113,14 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 23px;
+  color: #000;
 }
 .messagescontainer {
   flex: 1;
   flex-direction: column;
   gap: 30px;
-  text-align: center;
-  font-size: 20px;
+  text-align: left;
+  font-size: 16px;
   color: #4a3f69;
   font-family: Poppins;
 }
