@@ -11,11 +11,6 @@ const UserMessages = () => {
           <MessageCard />
           <MessageCard />
           <MessageCard />
-          <MessageCard />
-          <MessageCard />
-          <MessageCard />
-          <MessageCard />
-          <MessageCard />
         </div>
       </div>
       <MessagesContainer />
